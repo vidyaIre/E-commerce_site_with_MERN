@@ -7,7 +7,7 @@ import CartPage from './pages/CartPage';
 import Home from './pages/Home';
 import LoginPage from './pages/LoginPage';
 import Header from './components/Navbar';
-import Register from './pages/Register';
+import RegisterPage from './pages/RegisterPage';
 
 const App = () => {
   return (
@@ -19,7 +19,7 @@ const App = () => {
           <Route path="/product/:id" element={<ProductPage />} />
           <Route path="/cart" element={<CartPage />} />
           <Route path="/login" element={<LoginPage/>} />
-          <Route path="/register" element={<Register/>} />
+          <Route path="/register" element={<RegisterPage/>} />
         </Routes>
       </main>
       <Footer />
